@@ -1,0 +1,96 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#----------------------------------"
+      },
+      {
+        "line": 2,
+        "value": "# Empty Cucumber .feature file"
+      },
+      {
+        "line": 3,
+        "value": "#----------------------------------"
+      }
+    ],
+    "line": 7,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Check Bulletin Web Page Features",
+        "description": "",
+        "id": "validate-ibg-bulletin-web-app-test;check-bulletin-web-page-features",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12862428500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on bulletin homepage",
+            "match": {
+              "location": "StepDefinition.user_is_on_bulletin_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8016652200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter name and email",
+            "match": {
+              "location": "StepDefinition.user_enter_name_and_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3155200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select location",
+            "match": {
+              "location": "StepDefinition.user_select_location()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter captcha and submit",
+            "match": {
+              "location": "StepDefinition.user_enter_captcha_and_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user closes web app",
+            "match": {
+              "location": "StepDefinition.user_closes_web_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate IBG Bulletin Web App Test",
+    "description": "",
+    "id": "validate-ibg-bulletin-web-app-test",
+    "keyword": "Feature",
+    "uri": "src/main/java/com/itexps/features/acku.feature"
+  }
+]
